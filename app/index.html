@@ -5,19 +5,27 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>totally normal RPS</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel='stylesheet' href='base.css'>
 </head>
-<body class='min-h-screen bg-stone-50'></body>
+<body class='min-h-screen bg-stone-50'>
+<!--
+yes im using tailwind cause im lazy af
+i hate it with a passion tho dw :p
+-->
+</body>
 </html>
 
-<div class='h-screen grid place-content-center gap-16'>
+<div class='h-screen grid place-content-center gap-16 p-4'>
   <div class='text-center space-y-12'>
     <h2 class='text-slate-500 mb-4'>Welcome to</h2>
     <h1 class='text-3xl italic'>A totally normal game of Rock Paper Scissors</h1>
     <p>Where everything is totally normal and not suspicious at all.</p>
   </div>
-  <div class='flex text-[10em] select-none *:transition-all *:hover:-translate-y-2'>
+  <div class='flex text-5-10 select-none *:transition-all *:hover:-translate-y-2'>
     <span>🪨</span>
     <span>📄</span>
     <span>✂️</span>
   </div>
 </div>
+
+<script src='main.ts'></script>

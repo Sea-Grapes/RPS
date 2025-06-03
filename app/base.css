@@ -1,0 +1,7 @@
+:root {
+  --fluid-80-160: clamp(5rem, 3.2609rem + 8.6957vw, 10rem);
+}
+
+.text-5-10 {
+  font-size: var(--fluid-80-160);
+}
