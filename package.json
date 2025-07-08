@@ -1,5 +1,13 @@
 {
   "scripts": {
     "dev": "bun app/index.html"
+  },
+  "name": "rps",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
